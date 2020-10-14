@@ -15,13 +15,13 @@ name: Deploy lambda from S3
 
 on:
   push:
-    branches: [master]
+    branches: [main]
 
 jobs:
   lambda:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
       - uses: rotarydialer/update-lambda
         env:
           LAMBDA_NAME: example-lambda-function
