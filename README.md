@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: rotarydialer/update-lambda
+      - uses: rotarydialer/update-lambda-s3@main
         env:
           LAMBDA_NAME: example-lambda-function
           AWS_S3_BUCKET: example-lambda-builds-bucket
