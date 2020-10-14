@@ -27,8 +27,8 @@ jobs:
           LAMBDA_NAME: example-lambda-function
           AWS_S3_BUCKET: example-lambda-builds-bucket
           AWS_S3_KEY: /builds/example-lambda.v1.0.0.zip
-          AWS_SECRET_ID: ${{ secrets.AWS_SECRET_ID }}
-          AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_KEY }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: ${{ secrets.AWS_REGION }}
 ```
 
