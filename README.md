@@ -1,8 +1,8 @@
 # GitHub Action: Deploy Lambda from a zip in an S3 Bucket
 
-This action uses the [vanilla AWS CLI](https://docs.aws.amazon.com/cli/index.html) to update a lambda function's code from a zip stored in an S3 bucket.
+This action uses the [AWS CLI](https://docs.aws.amazon.com/cli/index.html) to update a lambda function's code from a zip stored in an S3 bucket.
 
-This is in contrast to many other actions, which deploy only a local zip file.
+This is in contrast to many other actions, which will deploy only a local zip file.
 
 ## Usage
 
