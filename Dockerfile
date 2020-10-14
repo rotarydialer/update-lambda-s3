@@ -3,7 +3,7 @@ FROM python:3.7-alpine
 LABEL "com.github.actions.name"="Update lambda from S3"
 LABEL "com.github.actions.description"="Deploy a lambda's code from a zip in a S3 bucket"
 LABEL "com.github.actions.icon"="truck"
-LABEL "com.github.actions.color"="lightgreen"
+LABEL "com.github.actions.color"="green"
 
 LABEL version="0.1.0"
 LABEL repository="https://github.com/rotarydialer/update-lambda-s3"
